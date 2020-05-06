@@ -1,0 +1,58 @@
+# depslib dependency file v1.0
+1588796875 source:c:\users\bogda\documents\c++\poo_tema_2\main.cpp
+	<iostream>
+	<persoana.h>
+	<abonat.h>
+	<abonat_skype.h>
+	<abonat_skype_romania.h>
+	<abonat_skype_extern.h>
+	<agenda.h>
+	<string>
+
+1588796988 c:\users\bogda\documents\c++\poo_tema_2\include\persoana.h
+	<string>
+
+1588797076 source:c:\users\bogda\documents\c++\poo_tema_2\src\persoana.cpp
+	"persoana.h"
+	<iostream>
+
+1588796988 c:\users\bogda\documents\c++\poo_tema_2\include\abonat.h
+	<string>
+	<persoana.h>
+
+1588797076 source:c:\users\bogda\documents\c++\poo_tema_2\src\abonat.cpp
+	"abonat.h"
+	<iostream>
+
+1588796988 c:\users\bogda\documents\c++\poo_tema_2\include\abonat_skype.h
+	<string>
+	<abonat.h>
+
+1588797076 source:c:\users\bogda\documents\c++\poo_tema_2\src\abonat_skype.cpp
+	"abonat_skype.h"
+	<iostream>
+
+1588797022 source:c:\users\bogda\documents\c++\poo_tema_2\src\abonat_skype_romania.cpp
+	"abonat_skype_romania.h"
+	<iostream>
+
+1588796988 c:\users\bogda\documents\c++\poo_tema_2\include\abonat_skype_romania.h
+	<string>
+	<abonat_skype.h>
+
+1588797076 source:c:\users\bogda\documents\c++\poo_tema_2\src\abonat_skype_extern.cpp
+	"abonat_skype_extern.h"
+	<iostream>
+
+1588796988 c:\users\bogda\documents\c++\poo_tema_2\include\abonat_skype_extern.h
+	<string>
+	<abonat_skype.h>
+
+1588798911 c:\users\bogda\documents\c++\poo_tema_2\include\agenda.h
+	<abonat_skype_romania.h>
+	<vector>
+
+1588798989 source:c:\users\bogda\documents\c++\poo_tema_2\src\agenda.cpp
+	"agenda.h"
+	<iostream>
+
