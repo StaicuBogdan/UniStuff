@@ -1,0 +1,3 @@
+C:/Users/bogda/Documents/CLion C++/Tema_POO_1/cmake-build-debug/CMakeFiles/Tema_POO_1.dir
+C:/Users/bogda/Documents/CLion C++/Tema_POO_1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/bogda/Documents/CLion C++/Tema_POO_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
