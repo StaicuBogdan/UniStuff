@@ -103,7 +103,7 @@ int main()
     A.Afisare_matrice();
     cout<<endl;
     Matrice v[3];
-    Citire_n_obiecte(0,v);
+   
 
     Matrice X(3,5,5);
     Matrice Z(4,5,5);
