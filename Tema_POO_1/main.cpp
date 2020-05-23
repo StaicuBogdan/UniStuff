@@ -102,6 +102,9 @@ int main()
     A.Reactualizare_matrice(15,6,8);///prima matrice modificata dupa parametrii noi, 6 linii, 8 col, elem. ==15
     A.Afisare_matrice();
     cout<<endl;
+    
+    
+    
     Matrice v[3];
    
 
