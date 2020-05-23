@@ -1,16 +1,21 @@
 #ifndef CEC_H
 #define CEC_H
 
+#include <tranzactie.h>
 
-class cec
-{
+using namespace std;
+
+class cec : public tranzactie{
+        string nume;
     public:
-        cec();
+        cec(string data_val="");
         virtual ~cec();
 
-    protected:
+        int get_suma() const;
+        string get_data() const;
+        void afiseazaTranzactie();
 
-    private:
+        friend istream &operator>>(istream &input, cec &ce);
 };
 
 #endif // CEC_H
