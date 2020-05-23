@@ -1,16 +1,20 @@
 #ifndef CASH_H
 #define CASH_H
 
+#include <tranzactie.h>
 
-class cash
-{
+using namespace std;
+
+class cash : public tranzactie{
     public:
-        cash();
+        cash(string data_val="");
         virtual ~cash();
 
-    protected:
+        int get_suma() const;
+        string get_data() const;
+        friend istream &operator>>(istream &input, cash &c);
 
-    private:
+        void afiseazaTranzactie();
 };
 
 #endif // CASH_H
