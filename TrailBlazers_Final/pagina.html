@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>pagina</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script defer src="script.js"></script>
+
+</head>
+<body>
+    <button type="button" onclick="getTickets()" >Get tickets</button><br>
+    <button type="button" onclick="getOneTicket(1)">Get One Ticket</button><br>
+
+    <input type="text" placeholder="name" id="name">
+    <input type="text" placeholder="meci" id="meci">
+    <button type="button" onclick="insertTicket()">Insert Ticket</button><br>
+
+    <input type="text" placeholder="Update ticket" id="updateTicket">
+    <button type="button" onclick="getOneTicket(2)">Update</button>
+
+    <input type="text" placeholder="id" id="dogId">
+    <button type="button" onclick="deleteTicket()">Delete</button>
+</body>
+</html>

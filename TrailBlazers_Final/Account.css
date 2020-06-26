@@ -1,0 +1,130 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('tb_bg.jpg');
+    background-repeat: repeat;
+}
+
+@font-face {
+    font-family: digital;
+    src: url('digital-7.ttf');
+}
+
+.meniu{
+    background-color: rgb(66, 14, 14);
+    text-align: center;
+    margin-top: 2vh;
+    margin-left: 1.8vw;
+    margin-right: 1.8vw;
+    padding: 0.5em;
+    border-color: aqua;
+}
+.meniu ul{
+    display: inline-flex;
+    list-style: none;
+    color: rgb(255, 255, 255);
+}
+.meniu ul li{
+    width:150px;
+    height:60px;
+    margin:10px;
+    padding:15px;
+    font-size: 28px;
+}
+.meniu ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.meniu ul li:hover{
+    background-color:red;
+    border-radius: 5px;
+}
+
+#timer{
+    width: 80vw;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1em;
+    text-align: center;
+
+}
+
+#tabel{
+    margin-left:auto;
+    margin-right:auto;
+    height: 60px;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    background-color: darkred;
+}
+.celula{
+    height: 40px;
+    width: 100px;
+    font-size: 1em;
+}
+
+.celulat{
+    height: 40px;
+    width: 100px;
+    font-size: 3em;
+    font-family: 'digital',sans-serif;
+}
+#DivTimpramas{
+    background-color: darkred;
+    width: 27.2%;
+    border-style: solid;
+    border-color: black;
+    margin: auto;
+}
+#timpRamas{
+    color: darkorange;
+    font-size: 2em;
+    font-family: "Droid Sans",sans-serif;
+}
+
+#container{
+    height: 120px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: .6em;
+    position: relative;
+}
+#animatie{
+    position: absolute;
+}
+
+#pozaMinge{
+    margin-top:10px;
+    width: 100px;
+    height: 100px;
+    transform: rotate(40deg);
+}
+
+#news{
+    width: 90%;
+    margin:auto;
+    padding:10px;
+}
+
+#divImagine{
+    float:left;
+    width:65%;
+}
+#imagine{
+    height:540px;
+}
+#text{
+    float:left;
+    width:35%;
+}
+
+p{
+    color: white;
+    font-size: 1.5em;
+    font-family: sans-serif;
+}

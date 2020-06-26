@@ -1,0 +1,14 @@
+{
+  "bilete": [
+    {
+      "id": 1,
+      "nume": "bogdan",
+      "meci": "HOU"
+    },
+    {
+      "id": 2,
+      "nume": "bogdan",
+      "meci": "steaua"
+    }
+  ]
+}

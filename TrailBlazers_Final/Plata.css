@@ -1,0 +1,32 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightblue;
+}
+#logoDiv{
+    height:15vh;
+    text-align: center;
+}
+#logo{
+    height:100%;
+}
+#container{
+    text-align: center;
+    padding:3em;
+    height: 85vh;
+}
+#containerMic{
+    height:80%;
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+    background-color: lightskyblue;
+    border-color: dodgerblue;
+    border-style: groove;
+}
+input{
+    margin: 1em;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tickets</title>
+    <link rel="stylesheet" href="Tickets.css">
+    <script defer src="tickets.js"></script>
+</head>
+<body>
+<div class="meniu">
+    <ul>
+        <li><a href="NBA.html">Home</a></li>
+        <li><a href="Players.html">Players</a></li>
+        <li><a href="#">Tickets</a></li>
+        <li><a href="Account.html">News</a></li>
+        <li><a href="Gallery.html">Gallery</a></li>
+    </ul>
+</div>
+
+<div id="container">
+    <div class="caseta">
+        <img id="arena" src="large.jpg" alt="sala">
+    </div>
+    <div class="caseta" style="display:flex;">
+        <form id="form">
+            <div>
+                <h4>Alegeti zona preferata:</h4>
+
+                <label id="label1" for="basic">
+                    <input id="basic" type="radio" name="seats" value="basic" onclick="SchimbaPret(id)"> Loc Basic
+                </label>
+
+                <br>
+
+                <label id="label2" for="basic+">
+                    <input id="basic+" type="radio" name="seats" value="basic+" onclick="SchimbaPret(id)" checked> Loc
+                    Basic+
+                </label>
+
+                <br>
+
+                <label id="label3" for="premium">
+                    <input id="premium" type="radio" name="seats" value="premium" onclick="SchimbaPret(id)"> Loc Premium
+                </label>
+
+                <h4 class="deSchimbat hidden">Doriti si loc de parcare?(+$80)</h4>
+
+                <label class="deSchimbat hidden" for="da">
+                    <input id="da" type="radio" name="extra" onclick="AdaugaPret()">Da
+                </label>
+
+                <br>
+
+                <label class="deSchimbat hidden" for="nu">
+                    <input id="nu" type="radio" name="extra" onclick="ScadePret()" checked>Nu
+                </label>
+
+                <h3>Pret:</h3>
+                <p id="pret">$175</p>
+
+            </div>
+            <br>
+            <div>
+                <h4>Alegeti meciul pentru care doriti bilet:</h4>
+                <label for="meciuri">
+                    <select id="meciuri" onchange="SchimbaMeci()">
+                        <option value="LAL">vs. Los Angeles, 29 Iun</option>
+                        <option value="OCK" selected>vs. Ocklahoma, 3 Jul</option>
+                        <option value="BOS">vs. Boston, 10 Jul</option>
+                        <option value="HOU">vs. Houston, 15 Jul *</option>
+                    </select>
+                </label>
+                <p id="warningMeci" class="hidden">*meciul cu Houston Rockets s-ar putea sa fie anulat din cauza epidemiei de COVID</p>
+            </div>
+            <br>
+            <div>
+                <h4>Datele dumneavoastra:</h4>
+                <input id="nume" type="text" placeholder="Nume" required><br>
+                <input id="prenume" type="text" placeholder="Prenume" required><br>
+                <input id="email" type="text" placeholder="Email" required><br>
+                <input id="telefon" type="text" placeholder="Nr Telefon" required><br>
+                <button type="submit">Submit</button>
+                <br>
+
+            </div>
+            <br>
+            <div id="ultimul">
+                <h4>Ultimul bilet cumparat:</h4>
+                <p id="p1"></p>
+                <p id="p2"></p>
+                <p id="p3"></p>
+            </div>
+
+        </form>
+
+        <!--            <div id="afisare">-->
+        <!--                    <input id="sterge" type="text" placeholder="id bilet">-->
+        <!--                    <button id="butonStergere">Stergeti</button><br>-->
+        <!--             </div>-->
+    </div>
+
+</div>
+
+</body>
+</html>

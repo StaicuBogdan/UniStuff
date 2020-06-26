@@ -1,0 +1,111 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-image: url('tb_bg.jpg'); 
+    background-repeat: repeat-y; 
+    box-sizing: content-box;
+    font-family: sans-serif;
+}
+.meniu{
+    background-color: rgb(66, 14, 14);
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.meniu ul{
+    display: inline-flex;
+    list-style: none;
+    color: rgb(255, 255, 255);
+}
+.meniu ul li{
+    width:150px;
+    height:50px;
+    margin:15px;
+    padding:15px;
+    font-size: 28px;
+}
+.meniu ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.meniu ul li a img{
+    padding:0px;
+    height: 100%;
+    width: 70px;
+    margin-left: 0px;
+}
+.meniu ul li:hover{
+    background-color:red;
+    border-radius: 3px;
+}
+
+
+#container{
+    background-color: black;
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10px;
+    color: #fff;
+}
+#heading1{
+    color: whitesmoke;
+    font-size: xx-large; 
+    text-align: center;
+    padding:10px;
+}
+.caseta_poze{
+    width: 95%;
+    height: 420px;
+    background: black;
+    margin: auto;
+    padding: 5px;
+}
+.poza1{
+    width:49%;
+    height: 419px;
+    float: left;
+    text-align: center;
+}
+.poza2{
+    margin-left: 3%;
+    height:419px;
+    width:47%;
+    float:left;
+}
+.poza1 img{
+    width:100%;
+    height:419px;
+}
+.poza2 img{
+    width:100%;
+    height:419px;
+}
+#footer{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    float: left;
+}
+#paragraf_footer_1{
+    font-size: 15px;
+    color:rgb(134, 134, 134);
+    background-color: rgb(58, 58, 58);
+}
+
+#divAscunde{
+    text-align: center;
+}
+
+#ascunde{
+    margin: 3px;
+    padding: 3px;
+    font-size: 1.5em;
+}
+
+.hidden{
+    display:none;
+}
