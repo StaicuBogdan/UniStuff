@@ -1,2 +1,2 @@
 # UniStuff
-Proiecte pentru facultate, atat
+Profects for university.
